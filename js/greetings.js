@@ -20,8 +20,6 @@ const onLoginSubmit = (event) => {
     paintGreetings(userName);
 }
 
-
-
 loginForm.addEventListener("submit", onLoginSubmit);
 
 const savedUserName = localStorage.getItem(USER_NAME_KEY);
